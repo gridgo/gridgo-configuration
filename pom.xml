@@ -5,9 +5,15 @@
 	<artifactId>gridgo-configuration</artifactId>
 	<packaging>pom</packaging>
 
+	<version>0.1.0-SNAPSHOT</version>
+
 	<parent>
 		<groupId>io.gridgo</groupId>
 		<artifactId>gridgo-base</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<version>0.1.0</version>
 	</parent>
+
+	<modules>
+		<module>gridgo-configuration-base</module>
+	</modules>
 </project>
