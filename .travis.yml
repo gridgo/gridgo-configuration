@@ -1,0 +1,6 @@
+language: java
+jdk:
+- oraclejdk11
+
+notifications:
+  slack: gridgo:T0wEW6FXSZ9p7nDL28k7Y6Rr
