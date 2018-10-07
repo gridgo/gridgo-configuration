@@ -13,5 +13,5 @@
 
 **dev**
 
-[![Build Status](https://travis-ci.org/gridgo/gridgo-configuration.svg?branch=master)](https://travis-ci.org/gridgo-configuration)
-[![Coverage Status](https://coveralls.io/repos/github/gridgo/gridgo-configuration/badge.svg?branch=master&maxAge=86400)](https://coveralls.io/github/gridgo/gridgo-configuration?branch=master)
+[![Build Status](https://travis-ci.org/gridgo/gridgo-configuration.svg?branch=dev)](https://travis-ci.org/gridgo-configuration)
+[![Coverage Status](https://coveralls.io/repos/github/gridgo/gridgo-configuration/badge.svg?branch=master&maxAge=86400)](https://coveralls.io/github/gridgo/gridgo-configuration?branch=dev)
