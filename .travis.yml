@@ -1,6 +1,13 @@
 language: java
 jdk:
 - oraclejdk11
-
 notifications:
   slack: gridgo:T0wEW6FXSZ9p7nDL28k7Y6Rr
+  
+addons:
+  sonarcloud:
+    organization: "gridgo" # the key of the org you chose at step #3
+    token: $SONAR_TOKEN
+
+after_success:
+- mvn clean test jacoco:report sonar:sonar -Dsonar.projectKey=gridgo_gridgo-configuration coveralls:report -DrepoToken=$CoverallsRepoToken
