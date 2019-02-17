@@ -11,6 +11,13 @@
 		<version>0.4.0</version>
 	</parent>
 
+	<scm>
+		<url>https://github.com/gridgo/gridgo-configuration.git</url>
+		<developerConnection>scm:git:[fetch=]https://github.com/gridgo/gridgo-configuration.git</developerConnection>
+		<connection>scm:git:[fetch=]https://github.com/gridgo/gridgo-configuration.git</connection>
+		<tag>HEAD</tag>
+	</scm>
+
 	<modules>
 		<module>core</module>
 	</modules>
@@ -30,8 +37,4 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
-  <scm>
-    <tag>gridgo-config-0.4.0</tag>
-  </scm>
 </project>
