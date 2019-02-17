@@ -3,7 +3,7 @@
 	<artifactId>gridgo-config</artifactId>
 	<packaging>pom</packaging>
 	
-	<version>0.4.0</version>
+	<version>0.4.0-SNAPSHOT</version>
 
 	<parent>
 		<groupId>io.gridgo</groupId>
