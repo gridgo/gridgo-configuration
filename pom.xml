@@ -3,7 +3,7 @@
 	<artifactId>gridgo-config</artifactId>
 	<packaging>pom</packaging>
 	
-	<version>0.5.0-SNAPSHOT</version>
+	<version>0.5.0</version>
 	
 	<parent>
 		<groupId>io.gridgo</groupId>
@@ -15,7 +15,7 @@
 		<url>https://github.com/gridgo/gridgo-configuration.git</url>
 		<developerConnection>scm:git:[fetch=]https://github.com/gridgo/gridgo-configuration.git</developerConnection>
 		<connection>scm:git:[fetch=]https://github.com/gridgo/gridgo-configuration.git</connection>
-		<tag>HEAD</tag>
+		<tag>gridgo-config-0.5.0</tag>
 	</scm>
 
 	<modules>
