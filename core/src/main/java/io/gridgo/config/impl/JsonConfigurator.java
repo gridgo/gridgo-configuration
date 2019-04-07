@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.Reader;
 import java.util.Optional;
 
 import io.gridgo.bean.BElement;
@@ -26,10 +25,6 @@ public class JsonConfigurator extends AbstractLocalConfigurator {
     @Override
     protected String generateName() {
         return "config.json";
-    }
-
-    public static final JsonConfigurator ofReader(Reader reader) {
-        return new JsonConfigurator(BElement.ofJson(reader));
     }
 
     public static final JsonConfigurator ofStream(InputStream stream) {
