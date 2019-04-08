@@ -4,6 +4,10 @@
 [![Maven Central](https://img.shields.io/maven-central/v/io.gridgo/gridgo-config.svg?maxAge=86400)](http://mvnrepository.com/artifact/io.gridgo/gridgo-config)
 [![Javadocs](http://javadoc.io/badge/io.gridgo/gridgo-config.svg)](http://javadoc.io/doc/io.gridgo/gridgo-config)
 
+*DEPRECATED*
+
+*This repo has been merged into the main Gridgo repository and thus become deprecated*
+
 ## continous integration
 
 **master**
